@@ -1,0 +1,32 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "schema-collection": {},
+      "schema-form": {},
+      "bootstrap-3": {}
+    },
+    "packages": {
+      "schema-collection": {
+        "git": "https://github.com/ahdinosaur/meteor-schema-collection.git",
+        "tag": "v0.0.1",
+        "commit": "f1d6474bff760e9fab7d4e336132ae485870d094"
+      },
+      "schema-form": {
+        "git": "https://github.com/ahdinosaur/meteor-schema-form.git",
+        "tag": "v0.0.3",
+        "commit": "98ea58fd9147dfc9ee52d229ba3335de926d625d"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v0.3.4",
+        "commit": "680c056e849d079a1b669247f347da2b443aad91"
+      },
+      "JSV": {
+        "git": "https://github.com/ahdinosaur/meteor-JSV.git",
+        "tag": "v0.0.1",
+        "commit": "ce117586f22ce43877535ab6469fea31ac432a17"
+      }
+    }
+  }
+}
