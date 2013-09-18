@@ -56,8 +56,17 @@
 i'm home
 </template>
 
-<template name="thing">
-  <form id="thing_{{ _id }}"></form>
+<template name="thingGet">
+  <h3>
+    <a href="/things/{{ _id }}">
+      {{ title }}
+    </a>
+  </h3>
+  <p>{{ description }}</p>
+</template>
+
+<template name="thingUpdate">
+  {{ easyform col="Things" data=this type="update" }}
 </template>
 
 <template name="thingNewBtn">
@@ -66,7 +75,7 @@ i'm home
 
 <template name="things">
 {{#each fetch }}
-  {{> thing }}
+  {{> thingGet }}
 {{/each }}
 </template>
 

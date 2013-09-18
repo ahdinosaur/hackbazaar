@@ -2,24 +2,19 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "schema-collection": {},
-      "schema-form": {},
       "bootstrap-3": {},
       "iron-router": {},
       "spin": {},
-      "accounts-ui-bootstrap-3": {}
+      "accounts-ui-bootstrap-3": {},
+      "easy-collection": {
+        "path": "../meteor-easy-collection"
+      },
+      "easy-form": {
+        "path": "../meteor-easy-form"
+      },
+      "alpaca-bootstrap": {}
     },
     "packages": {
-      "schema-collection": {
-        "git": "https://github.com/ahdinosaur/meteor-schema-collection.git",
-        "tag": "v0.0.1",
-        "commit": "f1d6474bff760e9fab7d4e336132ae485870d094"
-      },
-      "schema-form": {
-        "git": "https://github.com/ahdinosaur/meteor-schema-form.git",
-        "tag": "v0.0.3",
-        "commit": "98ea58fd9147dfc9ee52d229ba3335de926d625d"
-      },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
         "tag": "v0.3.4",
@@ -40,10 +35,26 @@
         "tag": "v0.2.2",
         "commit": "570ffe3ba084bae10c53915e5b0074dae26cae4a"
       },
-      "JSV": {
-        "git": "https://github.com/ahdinosaur/meteor-JSV.git",
+      "easy-collection": {
+        "path": "../meteor-easy-collection"
+      },
+      "easy-form": {
+        "path": "../meteor-easy-form"
+      },
+      "alpaca-bootstrap": {
+        "git": "https://github.com/ahdinosaur/meteor-alpaca-bootstrap.git",
         "tag": "v0.0.1",
-        "commit": "ce117586f22ce43877535ab6469fea31ac432a17"
+        "commit": "542194919eb8f444ae09ca003f865fc9f272aa76"
+      },
+      "tv4": {
+        "git": "https://github.com/ahdinosaur/meteor-tv4.git",
+        "tag": "v0.0.1",
+        "commit": "10bb076b8638e3f7debda8e3e13e222a16e9123a"
+      },
+      "alpaca": {
+        "git": "https://github.com/ahdinosaur/meteor-alpaca.git",
+        "tag": "v0.0.1",
+        "commit": "d6a6836549387c0b651604195799a6fd1dbe26ff"
       }
     }
   }

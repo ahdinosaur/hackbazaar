@@ -1,10 +1,15 @@
 {
   "packages": {
-    "schema-collection": {},
-    "schema-form": {},
     "bootstrap-3": {},
     "iron-router": {},
     "spin": {},
-    "accounts-ui-bootstrap-3": {}
+    "accounts-ui-bootstrap-3": {},
+    "easy-collection": {
+      "path": "/home/michael/repos/ahdinosaur/meteor-easy-collection"
+    },
+    "easy-form": {
+      "path": "/home/michael/repos/ahdinosaur/meteor-easy-form"
+    },
+    "alpaca-bootstrap": {}
   }
 }

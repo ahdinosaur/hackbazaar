@@ -1,4 +1,4 @@
-Things = new Meteor.SchemaCollection('things', {
+Things = new Meteor.EasyCollection('things', {
   schema: {
     type: 'object',
     properties: {

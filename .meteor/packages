@@ -6,11 +6,12 @@
 standard-app-packages
 insecure
 preserve-inputs
-schema-collection
-schema-form
 bootstrap-3
 iron-router
 spin
 accounts-password
 accounts-ui-bootstrap-3
 underscore
+easy-collection
+easy-form
+alpaca-bootstrap
